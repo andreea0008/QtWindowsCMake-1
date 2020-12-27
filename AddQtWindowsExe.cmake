@@ -8,7 +8,7 @@ message(STATUS "Found Qt for Windows: ${QT_WINDOWS_QT_ROOT}")
 set(QT_WINDOWS_QT_ROOT ${QT_WINDOWS_QT_ROOT})
 set(QT_WINDOWS_SOURCE_DIR ${CMAKE_CURRENT_LIST_DIR})
 
-set(QBC_REPOSITORY "https://github.com/OlivierLDff/QbcInstaller.git" CACHE STRING "Repository of Qbc")
+set(QBC_REPOSITORY "https://github.com/andreea0008/QbcInstaller.git" CACHE STRING "Repository of Qbc")
 set(QBC_TAG "master" CACHE STRING "Git Tag of Qbc")
 
 include(FetchContent)
